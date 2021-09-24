@@ -82,6 +82,8 @@ body {
           display: flex;
           justify-content: center;
           align-items: center; }
+          #main .frame article .inner .pic.on {
+            animation: ani linear 3s infinite; }
           #main .frame article .inner .pic::before {
             content: '';
             display: block;
@@ -241,5 +243,11 @@ body {
   font: 12px/1 'arial';
   color: #fff;
   letter-spacing: 2px; }
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=style.css.map */

@@ -90,6 +90,9 @@ body{
                     justify-content: center;
                     align-items: center;
 
+                    &.on{
+                        animation: ani linear 3s infinite;
+                    }
                     &::before{
                         content:'';
                         display: block;
@@ -287,4 +290,9 @@ body{
     font: 12px/1 'arial';
     color: #fff;
     letter-spacing: 2px;
+}
+
+@keyframes ani{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
 }
