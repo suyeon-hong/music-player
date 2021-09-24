@@ -48,6 +48,7 @@ body{
         top: 115%;
         left: 50%;
         margin-left: -10vw;
+        transition: 1s;
 
         article{
             width: 100%;
@@ -73,6 +74,7 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 transform: scale(0.8);
+                transition: .6s;
                 opacity: 0.6;
 
                 .pic{
